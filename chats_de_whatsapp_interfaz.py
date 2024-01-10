@@ -48,6 +48,7 @@ def pedir_contacto(diccionario_palabras_markov: dict):
         else:
             print()
             print("Ingrese el número del contacto que desea elegir.")
+            
 def contar_palabras_por_contacto(dirección: str, diccionario_palabras: dict):
     while True:
         print()
